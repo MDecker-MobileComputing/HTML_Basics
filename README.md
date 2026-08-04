@@ -6,7 +6,7 @@ This repository contains sample files for web programming.
 
 <br>
 
-Access the web pages via *GitHub Pages*:
+Access the files in this repository via *GitHub Pages*:
 https://mdecker-mobilecomputing.github.io/HTML_Basics/
 
 <br>
