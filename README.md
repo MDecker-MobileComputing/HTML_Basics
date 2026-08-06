@@ -2,7 +2,7 @@
 
 <br>
 
-This repository contains sample files for web programming.
+This repository contains sample files for web programming, namely the basics of HTML and CSS.
 
 <br>
 
