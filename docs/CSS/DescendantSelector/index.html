@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Descendant Selector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="descendant-selector.css">
+</head>
+<body>
+
+  <p>
+    This paragraph has no red text because it is not inside a <code>main</code>
+    element.
+  </p>
+
+  <main>
+
+    <p>
+      This paragraph is a direct child element of a <code>main</code> element
+      and is therefore written in red.
+    </p>
+
+    <section>
+
+      <h2><code>Section</code> inside <code>main</code> element</h2>
+
+      <p>
+        This paragraph is an indirect child element of a <code>main</code> element
+        and is therefore written in red.
+      </p>
+
+    </section>
+
+  </main>
+
+</body>
+

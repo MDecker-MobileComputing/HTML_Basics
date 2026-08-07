@@ -1,0 +1,19 @@
+
+body { font-family: sans-serif; }
+
+main > p {
+    color      : red;
+    font-weight: bold;
+}
+
+main {
+    background: BurlyWood;
+    padding   : .5em;
+}
+
+section {
+    background: AntiqueWhite;
+    padding   : .5em;
+}
+
+
