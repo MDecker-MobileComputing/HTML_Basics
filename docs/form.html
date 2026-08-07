@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms in HTML</title>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <h1>Forms in HTML</h1>
+
+  <form>
+
+    <fieldset>
+
+      <legend>Personal Information</legend>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+
+      <br><br>
+
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age">
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="divers">Divers</option>
+      </select>
+
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+
+      <legend>Logon Information</legend>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+
+      <legend>Additional Information</legend>
+
+      <label>
+        <input type="checkbox" name="advertising" value="yes">
+        Receive advertising
+      </label>
+
+      <br><br>
+
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" rows="4" cols="40"></textarea>
+
+    </fieldset>
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+  </form>
+
+
+</body>
