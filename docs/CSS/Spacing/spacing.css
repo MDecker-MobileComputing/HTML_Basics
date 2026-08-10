@@ -78,6 +78,23 @@ p {
 }
 
 
+/* *** Margins *** */
+
+#margin-1 {
+    margin: 30px;
+}
+
+#margin-2a {
+    margin: 10px 20px 10px 40px; /* top right bottom left (clockwise) */
+}
+
+#margin-2b {
+    margin-top   : 10px;
+    margin-right : 20px;
+    margin-bottom: 10px;
+    margin-left  : 40px;
+}
+
 /* *** For layout *** */
 
 h2 {
