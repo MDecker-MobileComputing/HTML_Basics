@@ -9,6 +9,9 @@
     background-color: aquamarine;
 }
 
+
+/* *** RGB model *** */
+
 #rgb-green {
 
     background-color: rgb(0, 255, 0);
@@ -19,28 +22,47 @@
  * 0.0 = fully transparent
  * 1.0 = fully opaque (German: blickdicht, undurchsichtig)
  */
-#rgb-green-alpha-20percent {
+#rgb-green-alpha20 {
 
     background-color: rgba(0, 255, 0, 0.2);
 }
 
-#rgb-green-alpha-80percent {
+#rgb-green-alpha80 {
 
     background-color: rgba(0, 255, 0, 0.8);
 }
+
 
 #hex-green {
 
     background-color: #00ff00;
 }
 
-#hex-green-alpha-20percent {
+#hex-green-alpha20 {
 
     background-color: #00ff0033;
 }
 
-#hex-green-alpha-80percent {
+#hex-green-alpha80 {
 
     background-color: #00ff00cc;
+}
+
+
+/* *** HSL model *** */
+
+#hsl-green {
+
+    background-color: hsl(120 100% 50%);
+}
+
+#hsl-green-alpha20 {
+
+     background-color: hsl(120 100% 50% / 20%)
+}
+
+#hsl-green-alpha80 {
+
+    background-color: hsl(120 100% 50% / 80%);
 }
 
