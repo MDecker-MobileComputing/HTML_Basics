@@ -3,6 +3,8 @@ p {
     background-color: orange;
 }
 
+/* *** Borders *** */
+
 #border-1a {
     border: 1px solid black;
 }
@@ -55,4 +57,29 @@ p {
     border-right : 10px dotted purple;
     border-top   : 10px solid  black;
     border-bottom: 15px dashed green;
+}
+
+
+/* *** Paddings *** */
+
+#padding-1 {
+    padding: 10px;
+}
+
+#padding-2a {
+    padding: 10px 20px 30px 40px; /* top right bottom left (clockwise) */
+}
+
+#padding-2b {
+    padding-top   : 10px;
+    padding-right : 20px;
+    padding-bottom: 30px;
+    padding-left  : 40px;
+}
+
+
+/* *** For layout *** */
+
+h2 {
+    margin-top: 35px;
 }
