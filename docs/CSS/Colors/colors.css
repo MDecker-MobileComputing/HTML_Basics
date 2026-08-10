@@ -21,11 +21,6 @@
     background-color: rgb(0, 255, 0);
 }
 
-/*
- * Using also the alpha channel for transparency:
- * 0.0 = fully transparent
- * 1.0 = fully opaque (German: blickdicht, undurchsichtig)
- */
 #rgb-green-alpha20 {
 
     background-color: rgba(0, 255, 0, 0.2);
@@ -34,6 +29,22 @@
 #rgb-green-alpha80 {
 
     background-color: rgba(0, 255, 0, 0.8);
+}
+
+
+#rgb-green-percent {
+
+    background-color: rgb(0%, 100%, 0%);
+}
+
+#rgb-green-alpha20-percent {
+
+    background-color: rgba(0%, 100%, 0%, 20%);
+}
+
+#rgb-green-alpha80-percent {
+
+    background-color: rgba(0%, 100%, 0%, 80%);
 }
 
 
