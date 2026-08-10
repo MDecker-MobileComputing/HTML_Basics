@@ -4,13 +4,17 @@
  * https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/named-color
  */
 
-#named-color {
+#named-color-aquamarine {
 
     background-color: aquamarine;
 }
 
+#named-color-lavender {
 
-/* *** RGB model *** */
+    background-color: lavender;
+}
+
+/* *** RGB values *** */
 
 #rgb-green {
 
@@ -49,7 +53,7 @@
 }
 
 
-/* *** HSL model *** */
+/* *** HSL values *** */
 
 #hsl-green {
 
@@ -65,4 +69,3 @@
 
     background-color: hsl(120 100% 50% / 80%);
 }
-
