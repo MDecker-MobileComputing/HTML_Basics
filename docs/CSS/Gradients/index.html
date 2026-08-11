@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gradients</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="gradients.css">
+</head>
+<body>
+
+  <h1>Gradients</h1>
+
+  <h2>Linear Gradients</h2>
+
+  <p id="linear-gradient-horizontal">
+    <code>linear-gradient(to right, lightyellow, lightblue)</code> — A <strong>linear gradient</strong> transitions colors along a straight line.
+    The gradient starts with <strong>light yellow</strong> on the left and fades to <strong>light blue</strong> on the right.
+    The direction <code>to right</code> means the color axis runs horizontally from left to right.
+  </p>
+
+  <p id="linear-gradient-vertical">
+    <code>linear-gradient(to bottom, lightyellow, lightblue)</code> — A <strong>linear gradient</strong> transitions colors along a straight line.
+    The gradient starts with <strong>light yellow</strong> at the top and fades to <strong>light blue</strong> at the bottom.
+    The direction <code>to bottom</code> means the color axis runs vertically from top to bottom.
+  </p>
+
+
+  <h2>Radial Gradients</h2>
+
+  <p id="radial-gradient-circle">
+    <code>radial-gradient(circle, green, yellow)</code> — A <strong>radial gradient</strong> radiates colors outward from a central point.
+    The shape <code>circle</code> ensures the gradient spreads evenly in all directions as a perfect circle.
+    It starts with <strong>green</strong> at the center and fades to <strong>yellow</strong> at the edges.
+  </p>
+
+  <p id="radial-gradient-ellipse">
+    <code>radial-gradient(ellipse, green, yellow)</code> — A <strong>radial gradient</strong> radiates colors outward from a central point.
+    The shape <code>ellipse</code> stretches the gradient to follow the proportions of the element, forming an oval.
+    It starts with <strong>green</strong> at the center and fades to <strong>yellow</strong> at the edges.
+  </p>
+
+  <h2>Conic Gradients</h2>
+
+  <p id="conic-gradient-basic">
+    <code>conic-gradient(lightcoral, lightyellow, lightgreen, lightskyblue, lightcoral)</code> — A <strong>conic gradient</strong> rotates colors around a center point, like a color wheel.
+    Unlike radial gradients, the transition happens angularly rather than radially.
+    This example cycles through <strong>light coral → light yellow → light green → light sky blue</strong> and back to light coral, completing a full 360° rotation.
+  </p>
+
+  <p id="conic-gradient-from">
+    <code>conic-gradient(from 45deg, lightyellow, lightblue)</code> — A <strong>conic gradient</strong> rotates colors around a center point.
+    The keyword <code>from 45deg</code> sets the starting angle of the rotation, shifting the start of the gradient by 45°.
+    It transitions from <strong>light yellow</strong> to <strong>light blue</strong> going clockwise around the center.
+  </p>
+
+</body>

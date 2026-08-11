@@ -1,0 +1,29 @@
+h2 {
+    margin-top: 2em;
+}
+
+#linear-gradient-horizontal {
+    background: linear-gradient(to right, lightyellow, lightblue);
+}
+
+#linear-gradient-vertical {
+    background: linear-gradient(to bottom, lightyellow, lightblue);
+}
+
+
+#radial-gradient-circle {
+    background: radial-gradient(circle, green, yellow, lightskyblue);
+}
+
+#radial-gradient-ellipse {
+    background: radial-gradient(ellipse, green, yellow, lightskyblue);
+}
+
+
+#conic-gradient-basic {
+    background: conic-gradient(lightcoral, lightyellow, lightgreen, lightskyblue, lightcoral);
+}
+
+#conic-gradient-from {
+    background: conic-gradient(from 45deg, lightyellow, lightblue);
+}
