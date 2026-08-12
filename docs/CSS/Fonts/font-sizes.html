@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fonts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="font-sizes.css">
+</head>
+<body>
+
+  <h1>Fonts</h1>
+
+  <p>For reference: This is a paragraph in the default font size (which is 16px in most modern browsers).</p>
+
+
+  <h2>Font size by keyword</h2>
+
+  <p class="explaination">
+    The factor by which each keyword increases the font size is approximately 1.2
+    (i.e., each size is 1.2 times the preceding size).
+  </p>
+
+  <p class="xx-small" >This is a paragraph with the font size set to <code>xx-small</code>.</p>
+  <p class="x-small"  >This is a paragraph with the font size set to <code>x-small</code>.</p>
+  <p class="small"    >This is a paragraph with the font size set to <code>small</code>.</p>
+  <p class="medium"   >This is a paragraph with the font size set to <code>medium</code> (default value).</p>
+  <p class="large"    >This is a paragraph with the font size set to <code>large</code>.</p>
+  <p class="x-large"  >This is a paragraph with the font size set to <code>x-large</code>.</p>
+  <p class="xx-large" >This is a paragraph with the font size set to <code>xx-large</code>.</p>
+
+
+  <h2>Relative font sizes</h2>
+
+  <h3>Unit <code>em</code></h3>
+
+  <p class="explaination">
+    In traditional typesetting, an <code>em</code> was a unit equal to the point size of the
+    type (for example, 1 em in 12-point type is 12 points), and it was historically
+    associated with the width of the capital letter M.
+    However, in modern web design, an <code>em</code> is a relative unit that is based on
+    the font size of the direct parent element.
+  </p>
+
+  <p class="em-0-75" >This is a paragraph with the font size set to <code>0.75em</code>.</p>
+
+  <p class="em-1" >This is a paragraph with the font size set to <code>1em</code>
+                   (which is the default in most modern browsers).</p>
+
+  <p class="em-1-5" >This is a paragraph with the font size set to <code>1.5em</code>.</p>
+
+
+  <h3>Unit <code>%</code></h3>
+
+  <p class="explaination">
+    For <code>font-size</code>, <code>em</code> and <code>%</code> are equivalent in value
+    (<code>1em = 100%</code>, <code>1.5em = 150%</code>), and both are relative to the
+    parent element's computed font size. The main difference is mostly readability and
+    convention: <code>em</code> is commonly used as a ratio, while <code>%</code> is often
+    used when you want to express explicit percentages.
+  </p>
+
+  <p class="percent-75" >This is a paragraph with the font size set to <code>75%</code>.</p>
+
+  <p class="percent-100" >This is a paragraph with the font size set to <code>100%</code>
+     (which is the default).</p>
+
+  <p class="percent-150" >This is a paragraph with the font size set to <code>150%</code>.</p>
+
+
+  <h3>Unit <code>rem</code></h3>
+
+  <p class="explaination">
+    The <code>rem</code> unit is similar to <code>em</code>, but it is always relative to the
+    font size of the root element (<code>&lt;html&gt;</code>).
+  </p>
+
+  <p class="rem-0-75" >This is a paragraph with the font size set to <code>0.75rem</code>.</p>
+
+  <p class="rem-1" >This is a paragraph with the font size set to <code>1rem</code>
+                   (which is the default in most modern browsers).</p>
+
+  <p class="rem-1-5" >This is a paragraph with the font size set to <code>1.5rem</code>.</p>
+
+
+  <h2>Font size in points</h2>
+
+  <p class="explaination">
+    A point (<code>pt</code>) is a traditional print unit where 72 points equal 1 inch,
+    so <code>12pt</code> means 12/72 of an inch in print layout terms. For modern web
+    interfaces on screens, <code>pt</code> is usually <strong>not recommended</strong>;
+    prefer <code>rem</code> or <code>em</code> for text so sizing is more accessible and
+    responsive to user settings.
+  </p>
+
+  <p class="point-9" >This is a paragraph with the font size set to <code>9pt</code>.</p>
+
+  <p class="point-12" >This is a paragraph with the font size set to <code>12pt</code>.</p>
+
+  <p class="point-18" >This is a paragraph with the font size set to <code>18pt</code>.</p>
+
+
+  <h2>Font size in pixels</h2>
+
+  <p class="explaination">
+    A pixel (<code>px</code>) is a unit of measurement that represents a single dot on the
+    screen. It is an absolute unit, meaning that it does not scale based on the user's
+    settings or the parent element's font size. While <code>px</code> can be useful for
+    precise control over layout, it is generally recommended to use relative units like
+    <code>em</code> or <code>rem</code> for text to ensure better accessibility and
+    responsiveness.
+
+  <p class="pixel-12" >
+    This is a paragraph with the font size set to <code>12px</code>.
+    12px is usually the smallest font size that is still readable on most screens,
+    and it is often used for fine print or secondary text.
+  </p>
+
+  <p class="pixel-16" >This is a paragraph with the font size set to <code>16px</code>.</p>
+
+  <p class="pixel-24" >This is a paragraph with the font size set to <code>24px</code>.</p>
+
+</body>

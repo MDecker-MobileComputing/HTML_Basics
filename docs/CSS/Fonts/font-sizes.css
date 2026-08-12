@@ -1,0 +1,105 @@
+h2 {
+  margin-top: 2em;
+}
+
+
+.explaination {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: green;
+}
+
+.xx-small {
+	font-size: xx-small;
+}
+
+.x-small {
+	font-size: x-small;
+}
+
+.small {
+	font-size: small;
+}
+
+.medium {
+	font-size: medium;
+}
+
+.large {
+	font-size: large;
+}
+
+.x-large {
+	font-size: x-large;
+}
+
+.xx-large {
+	font-size: xx-large;
+}
+
+
+
+.point-9 {
+	font-size: 9pt;
+}
+
+.point-12 {
+	font-size: 12pt;
+}
+
+.point-18 {
+	font-size: 18pt;
+}
+
+
+.pixel-12 {
+	font-size: 12px;
+}
+
+.pixel-16 {
+	font-size: 16px;
+}
+
+.pixel-24 {
+	font-size: 24px;
+}
+
+
+.em-0-75 {
+	font-size: 0.75em;
+}
+
+.em-1 {
+	font-size: 1em;
+}
+
+.em-1-5 {
+	font-size: 1.5em;
+}
+
+
+.percent-75 {
+	font-size: 75%;
+}
+
+.percent-100 {
+	font-size: 100%;
+}
+
+.percent-150 {
+	font-size: 150%;
+}
+
+
+.rem-0-75 {
+	font-size: 0.75rem;
+}
+
+.rem-1 {
+	font-size: 1rem;
+}
+
+.rem-1-5 {
+	font-size: 1.5rem;
+}
+
