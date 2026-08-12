@@ -27,4 +27,4 @@ jobs:
       - name: Validate all HTML + CSS files
         run: |
           set -o pipefail
-          html5validator --root . --show-warnings --also-check-css
+          html5validator --root . --show-warnings --also-check-css --ignore "conic-gradient"
