@@ -1,0 +1,22 @@
+
+.font-style-normal {
+    font-style: normal;
+}
+
+
+/**
+ * Difference between italic and oblique:
+ *
+ * - Italic: The letters are slanted and often have a different design than their upright counterparts.
+             Italic fonts are specifically designed to be used in an italic style.
+ *
+ * - Oblique: The letters are simply slanted versions of the regular font, without any changes to the letterforms.
+ *            Oblique fonts are typically created by skewing the regular font.
+ *            If no oblique version of a font is available, the browser may simulate it by slanting the regular font.
+ */
+.font-style-italic {
+    font-style: italic;
+}
+.font-style-oblique {
+    font-style: oblique;
+}
