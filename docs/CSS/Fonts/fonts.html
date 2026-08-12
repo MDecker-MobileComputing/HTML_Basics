@@ -4,7 +4,8 @@
     <title>CSS: Font Sizes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="fonts.css">
-    <link rel="stylesheet" type="text/css" href="explanation.css">
+    <link rel="stylesheet" type="text/css" href="fonts-common.css">
+
 </head>
 <body>
 
@@ -18,13 +19,47 @@
   <p class="generic-font-cursive"    >This is a paragraph with the generic cursive font.</p>
   <p class="generic-font-fantasy"    >This is a paragraph with the generic fantasy font.</p>
 
+  <p class="explanation">
+    A <strong>serif font</strong> is a typeface with small decorative strokes, called serifs, at the ends of
+    letters. These extra details often make the text look more traditional, formal, and readable in long
+    passages of print. A <strong>sans-serif font</strong> does not have these small decorative strokes; it is
+    cleaner, more modern, and commonly used on screens and in interfaces. A <strong>monospace font</strong>
+    uses characters that all take up the same horizontal width, which makes it useful for code and aligned text.
+    A <strong>cursive font</strong> imitates handwriting or script styles with flowing, connected strokes and is
+    usually decorative. A <strong>fantasy font</strong> is a highly stylized decorative typeface used for creative
+    or playful effects rather than large amounts of readable body text.
+  </p>
+
 
   <h2>Font Stack</h2>
+
+  <p class="explanation">
+    A font stack is a prioritized list of fonts that the browser tries to use in order.
+    The browser obtains the fonts from the operating system, so it checks whether the first
+    fonts are installed, then falls back to the next ones if needed.
+  </p>
 
   <p class="font-serif"      >This is a paragraph with the serif font stack.</p>
   <p class="font-sans-serif" >This is a paragraph with the sans-serif font stack.</p>
   <p class="font-monospace"  >This is a paragraph with the monospace font stack.</p>
   <p class="font-cursive"    >This is a paragraph with the cursive font stack.</p>
   <p class="font-fantasy"    >This is a paragraph with the fantasy font stack.</p>
+
+
+  <h2>Web Fonts</h2>
+
+  <p class="explanation">
+    Web fonts are fonts that are loaded from a server and used by the browser while rendering a webpage.
+    They let designers use a wider choice of typefaces beyond the default fonts installed on the operating system.
+    In this demo, we only use <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> in the form of
+    locally downloaded files to avoid direct remote embedding and the kind of licensing concerns associated with the
+    warning letters discussed in connection with <em>Google Fonts</em>.
+  </p>
+
+  <p class="google-font-henny-penny">
+    This is a paragraph using the <em>Henny Penny</em> font obtained from <em>Google Fonts</em>
+    (see <a href="https://fonts.google.com/specimen/Henny+Penny?selection.family=Henny+Penny&preview.script=Latn" target="_blank">see here</a>).
+    It is a decorative font with a playful, hand-drawn style.
+  </p>
 
 </body>

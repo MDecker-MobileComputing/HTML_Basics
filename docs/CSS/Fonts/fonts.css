@@ -1,7 +1,11 @@
-h2 {
-  margin-top: 2em;
+@font-face {
+  font-family: 'HennyPenny';
+  src: url('HennyPenny-Regular.ttf') format('truetype');
 }
 
+.google-font-henny-penny {
+  font-family: 'HennyPenny', cursive;
+}
 
 .generic-font-serif {
 	font-family: serif;
