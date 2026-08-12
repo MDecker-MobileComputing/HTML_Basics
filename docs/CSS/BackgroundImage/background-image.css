@@ -1,0 +1,31 @@
+
+
+/*
+ * Source of image:
+ * https://pixabay.com/illustrations/background-list-victorian-green-1862608/
+ */
+
+body {
+  background-image    : url("ridderhof-background-1862608_1280.jpg");
+  background-size     : auto;
+  background-position : center;
+  margin              : 0;
+  min-height          : 100vh;
+}
+
+h1 {
+  margin-top: 11em;
+}
+
+h1, p {
+  color       : white;
+  text-align  : center;
+  font-family : Arial, Helvetica, sans-serif;
+}
+
+p {
+  max-width : 60ch;
+  margin    : 1em auto;
+  font-size : larger;
+}
+
