@@ -1,0 +1,24 @@
+
+.word-spacing-normal {
+	word-spacing: normal;
+}
+
+.word-spacing-0px {
+	word-spacing: 0px;
+}
+
+.word-spacing-10px {
+	word-spacing: 10px;
+}
+
+.word-spacing-20px {
+	word-spacing: 20px;
+}
+
+.word-spacing-negative-5px {
+	word-spacing: -5px;
+}
+
+.word-spacing-negative-15px {
+	word-spacing: -15px;
+}
