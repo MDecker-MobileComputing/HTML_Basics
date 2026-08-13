@@ -2,36 +2,38 @@
 .font-style-normal {
     font-style: normal;
 }
-
 .font-style-italic {
     font-style: italic;
 }
-
 .font-style-oblique {
     font-style: oblique;
 }
-
 .font-weight-normal {
     font-weight: normal;
 }
-
-
 .font-weight-bold {
     font-weight: bold;
 }
-
 .font-weight-bolder {
     font-weight: bolder;
 }
-
 .font-weight-lighter {
     font-weight: lighter;
 }
-
 .font-weight-500 {
     font-weight: 500;
 }
-
 .font-weight-800 {
     font-weight: 800;
+}
+
+
+.font-variant-normal {
+    font-variant: normal;
+}
+.font-variant-small-caps {
+    font-variant: small-caps;
+}
+.font-variant-diagonal-fractions {
+    font-variant: diagonal-fractions;
 }
