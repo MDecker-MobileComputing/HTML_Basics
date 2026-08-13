@@ -24,7 +24,7 @@ h1, p {
 }
 
 p {
-  max-width : 60ch;
+  max-width : 35rem;
   margin    : 1em auto;
   font-size : larger;
 }
