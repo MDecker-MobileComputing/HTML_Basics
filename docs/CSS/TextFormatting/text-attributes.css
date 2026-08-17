@@ -31,7 +31,6 @@
 .text-shadow-20px-right {
 	text-shadow: 20px 0px 0 lightgray;
 }
-
 .text-shadow-2px-orange {
 	text-shadow: 2px 2px 0 orange;
 }
@@ -91,16 +90,16 @@
 	line-height: 2;
 }
 
-.text-indent-0px {
-	text-indent: 0px;
+.text-indent-0 {
+	text-indent: 0; /* for 0 unit should be omitted */
 }
-.text-indent-10px {
-	text-indent: 10px;
+.text-indent-1em {
+	text-indent: 1em;
 }
-.text-indent-20px {
-	text-indent: 20px;
+.text-indent-2em {
+	text-indent: 2em;
 }
-.text-indent-minus-10px {
-	text-indent: -10px;
+.text-indent-minus-1em {
+	text-indent: -1em;
 }
 
