@@ -22,6 +22,9 @@
 .text-shadow-5px {
 	text-shadow: 5px 5px 0 gray;
 }
+.text-shadow-5px-blur-5px {
+	text-shadow: 5px 5px 5px gray;
+}
 .text-shadow-10px-top {
 	text-shadow: 0px -10px 0 lightgray;
 }
