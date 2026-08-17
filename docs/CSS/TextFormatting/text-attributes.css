@@ -39,21 +39,25 @@
 .word-spacing-normal {
 	word-spacing: normal;
 }
-.word-spacing-0px {
-	word-spacing: 0px;
+.word-spacing-0 {
+	word-spacing: 0;
 }
-.word-spacing-10px {
-	word-spacing: 10px;
+.word-spacing-0-5em {
+	word-spacing: 0.5em;
 }
-.word-spacing-20px {
-	word-spacing: 20px;
+.word-spacing-1-5em {
+	word-spacing: 1.5em;
 }
-.word-spacing-negative-5px {
-	word-spacing: -5px;
+.word-spacing-negative-0-1em {
+	word-spacing: -0.1em;
 }
-.word-spacing-negative-15px {
-	word-spacing: -15px;
+.word-spacing-negative-0-2em {
+	word-spacing: -0.2em;
 }
+.word-spacing-negative-0-5em {
+	word-spacing: -0.5em;
+}
+
 .letter-spacing-normal {
 	letter-spacing: normal;
 }
@@ -91,7 +95,7 @@
 }
 
 .text-indent-0 {
-	text-indent: 0; /* for 0 unit should be omitted */
+	text-indent: 0;
 }
 .text-indent-1em {
 	text-indent: 1em;
