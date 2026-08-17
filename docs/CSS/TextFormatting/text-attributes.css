@@ -39,7 +39,6 @@
 .word-spacing-normal {
 	word-spacing: normal; /* default value: 0 */
 }
-
 .word-spacing-0-5em {
 	word-spacing: 0.5em;
 }
@@ -47,6 +46,9 @@
 	word-spacing: 1.5em;
 }
 
+.word-spacing-0 {
+	word-spacing: 0;
+}
 .word-spacing-negative-0-1em {
 	word-spacing: -0.1em;
 }
