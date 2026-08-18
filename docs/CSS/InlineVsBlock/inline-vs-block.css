@@ -1,0 +1,38 @@
+
+body {
+    font-family: sans-serif;
+    box-sizing : border-box;
+}
+
+h2 {
+    margin-top   : 2em;
+    margin-bottom: 1em;
+}
+
+div {
+    margin-bottom: 1em;
+    margin-right : 1em;
+    background   : yellowgreen;
+}
+
+.square-block {
+    display: block;
+    width  : 4em;
+    height : 4em;
+}
+
+/*
+ * For elements with display=inline, width and height have no effect!
+ */
+.square-inline {
+    display: inline;
+
+    /* when padding > 0, even an empty inline element would take up space. */
+    /* padding: 2em; */
+}
+
+.square-inline-block {
+    display: inline-block;
+    width  : 4em;
+    height : 4em;
+}
