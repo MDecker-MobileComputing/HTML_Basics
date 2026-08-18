@@ -15,6 +15,12 @@ div {
     background   : yellowgreen;
 }
 
+.inline-color {
+    background-color: orange;
+    font-weight: bold;
+}
+
+
 .square-block {
     display: block;
     width  : 4em;
