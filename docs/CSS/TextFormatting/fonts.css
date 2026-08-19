@@ -4,20 +4,22 @@
   src: url('fonts/HennyPenny-Regular.ttf') format('truetype');
 }
 
+
 @font-face {
   font-family: "SAP72";
   src: url("fonts/72-Regular.woff2") format("woff2"),
-       url("fonts/72-Regular.woff" ) format("woff");
+       url("fonts/72-Regular.woff" ) format("woff" );
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: "SAP72";
   src: url("fonts/72-Italic-full.woff2") format("woff2"),
-       url("fonts/72-Italic-full.woff" ) format("woff");
+       url("fonts/72-Italic-full.woff" ) format("woff" );
   font-style: italic;
   font-weight: 400;
 }
+
 
 .google-font-henny-penny {
   font-family: 'HennyPenny', cursive;
