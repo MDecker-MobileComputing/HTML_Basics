@@ -13,5 +13,5 @@ span {
     height    : 4em;
     display   : inline-block; /* so width + height are also evaluated */
     margin    : .5em;         /* spacing on all four sides */
-    position  : static;       /* default value */
+    position  : static;       /* default value, might be overridden by class */
 }
