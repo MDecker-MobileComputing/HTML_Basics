@@ -1,0 +1,30 @@
+/* ALL text without serifs. */
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+
+
+/*
+* An element with position: sticky initially takes its position
+* as in the normal flow (i.e., with position: static); when you scroll down,
+* it remains on the screen, and the distances specified with top and left are
+* applied.
+*/
+.position-sticky {
+    position        : sticky;
+    background-color: blueviolet;
+    top             : 1em;
+    left            : 1em;
+}
+
+.position-fixed {
+    position        : fixed;
+    top             : 3em;
+    left            : 3em;
+    background-color: blueviolet;
+}

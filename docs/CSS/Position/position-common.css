@@ -1,0 +1,17 @@
+/* ALL text without serifs. */
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+span {
+    background: yellowgreen;
+    width     : 4em;
+    height    : 4em;
+    display   : inline-block; /* so width + height are also evaluated */
+    margin    : .5em;         /* spacing on all four sides */
+    position  : static;       /* default value */
+}
