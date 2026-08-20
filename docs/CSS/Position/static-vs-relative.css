@@ -1,0 +1,16 @@
+
+div {
+    background: yellowgreen;
+    width     : 4em;
+    height    : 4em;
+    display   : inline-block; /* so width + height are also taken into account */
+    margin    : .5em;         /* outer spacing on all four sides */
+    position  : static;       /* default value */
+}
+
+.position-relative {
+    position        : relative;
+    top             : 1.5em;
+    left            : .5em;
+    background-color: blueviolet;
+}
