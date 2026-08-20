@@ -1,0 +1,26 @@
+
+/*
+ * An element with position:absolute is not taken into account in the normal
+ * document flow (no space is reserved for it either).
+ * For its position, the coordinate origin is the nearest ancestor that does
+ * not itself have the default value "static";
+ * if there is no such ancestor, then the <body> element is the nearest ancestor.
+ * In this example, the <article> element is the nearest ancestor with position:relative.
+ */
+.position-absolute {
+    position        : absolute;
+    top             : 4em;
+    left            : 2em;
+    background-color: blueviolet;
+}
+
+article {
+    background-color: burlywood;
+    position        : relative;
+    padding-top     : 1px;
+}
+
+article h2 {
+    margin-top : 1em;
+    margin-left: 1em;
+}
