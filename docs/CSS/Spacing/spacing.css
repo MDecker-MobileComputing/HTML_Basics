@@ -49,7 +49,7 @@ p {
 }
 
 #border-10 {
-    border: 10px solid black;
+    border       : 10px solid black;
     border-radius: 20px;
 }
 

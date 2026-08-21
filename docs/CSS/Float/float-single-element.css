@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    background   : orange;
+    padding      : .5em;
+    margin-bottom: 1em;
+}
+
+.square {
+    display   : inline-block;
+    width     : 3em;
+    height    : 3em;
+    background: yellowgreen;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.margin-bottom-2em {
+    margin-bottom: 2em;
+}
